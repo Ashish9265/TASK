@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 3 COMPLETED</title>
+</head>
+<body>
+    <ul id="display"></ul>
+
+    <script>
+        let education=["10th","html","css","javascript"]
+
+        let a=education.map(function(a){
+            return `<li>${a}</li>`
+        })
+
+        document.getElementById("display").innerHTML=a.join("")
+
+        console.log(a)
+    </script>
+</body>
+</html>
